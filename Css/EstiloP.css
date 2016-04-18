@@ -1,0 +1,120 @@
+/*	font-family: 'Lobster', cursive;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+#contenidos{
+	width:1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+/*Etiquetas*/
+
+body{
+	background-image: url(../Img/FondoH.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	color: white;
+	margin-left: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+h3{
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+header{
+	    
+		width: 1000px;
+		height: 120px;
+		background: rgba(500, 500, 500, 7,5);
+
+}
+
+nav{
+	width: 1000px;
+	height: 60px;
+	background: silver;
+	border-radius: 11px;
+
+}
+ul{
+	margin: auto;
+	padding-top: 4px;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: green;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black inset;
+}
+section{
+	text-align:center;
+	width: 700px;
+	background: gray;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+aside{
+	text-align:center;
+	width: 280px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow:0 0 10px black inset;
+}
+
+footer{
+	width: 1000px;
+	height: 70px;
+	background: maroon;
+	float: left;
+	margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 25px;
+	padding: 10px;
+	text-align: justify; 
+}
+
+
+
+/*Clases*/
+.ancho_menu_home{width: 500px;}
+.ancho_menu_paginas{width: 500px;}
+
+.menu:link{color:white; text-decoration: none;}
+.menu:visited{color:white; text-decoration: none;}
+.menu:hover{color:white; text-decoration: none; text-shadow:0 0 15px white;}
+.menu:active{color:white; text-decoration: none;}
+
+/*Seudo Clases*/
